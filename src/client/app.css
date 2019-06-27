@@ -1,0 +1,23 @@
+h1 {
+  color: green;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+}
+
+* {
+  margin: 1%;
+}
+
+li {
+  list-style: none;
+  margin-left:1%;
+}
+
+ul {
+  display: inline-block;
+  margin: 2% auto;
+  width: 50%;
+}
