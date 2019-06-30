@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+.featured-car {
+  width: 80%;
+  margin-bottom: 10px;
+  font-family: 'Roboto Slab', serif;
+  border-radius: 5px;
+  border: 3px solid #47735b; 
+  color: #47735b;
+  cursor: pointer;
+}
+
+.featured-car:hover {
+  background-color: #bfe2cf;
+  color: #2a4436;
+}
+
+.featured-car p {
+  font-size: 18px;
+  text-align: right;
+  font-style: italic;
+}
+
+.featured-car h5 {
+  font-size: 3em ;
+    font-weight: bold;
+    text-align: center;
+    color: #868686;
+    line-height: 2em;
+    margin: 10px 0 15px;
+}
