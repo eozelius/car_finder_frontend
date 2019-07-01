@@ -1,0 +1,75 @@
+#car-finder {
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#car-finder form {
+  width: 75%;
+  margin: 0 auto
+}
+
+#car-finder  input {
+  margin: 1% auto 1%;
+}
+
+#car-finder  input[type="text"] {
+  height: 20px;
+  width: 15%;
+}
+
+#car-finder  input[type="submit"] {
+  width: 10%;
+  height: 25px;
+  border-radius: 3px;
+}
+
+.convo {
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  min-height: 200px;
+  border: 1px solid #ccc;
+}
+
+.convo  ul {
+  padding: 0
+}
+  
+.convo .message {
+  width: 60%;
+  min-height: 75px;
+  font-family: 'Roboto Slab', serif;
+  border-radius: 5px;
+  list-style: none;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  padding: 3px 15px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 3px solid #47735b;
+}
+
+.message h3 {
+  font-size: 2.1em ;
+  font-weight: bold;
+  text-align: center;
+  color: #868686;
+  line-height: 2em;
+  margin: 10px 0 15px;
+}
+
+.convo .message:hover {
+  transform: scale(1.05);
+  background-color: transparent;
+}
+
+.convo h3, p {
+  text-align: left;
+}
+
+.convo .user-message {
+  background-color: azure;
+  margin-right: 15px;
+  
+}

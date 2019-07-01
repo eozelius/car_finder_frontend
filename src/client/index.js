@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import CarFinderHeader from './CarFinderHeader'
 import FeaturedCar from './FeaturedCar'
 import FeaturedCarsList from './FeaturedCarsList'
+import Chatbot from './Chatbot'
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -15,3 +16,4 @@ window.ReactDOM = ReactDOM
 window.CarFinderHeader = CarFinderHeader
 window.FeaturedCar = FeaturedCar
 window.FeaturedCarsList = FeaturedCarsList
+window.Chatbot = Chatbot

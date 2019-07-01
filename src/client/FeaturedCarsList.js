@@ -22,7 +22,7 @@ export default class FeaturedCarsList extends Component {
             })
           }
         </ul>
-        </div>
+      </div>
     )
   }
 }
